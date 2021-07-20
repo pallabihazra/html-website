@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>register</title>
+	<style>
+		.b{
+			margin: 0;
+			padding: 0;
+			background-image:url("aa.jpg");
+			background-size: cover;
+			
+		}
+		.head{
+			
+			font-size: 30px;
+			margin-top: -30px;
+			letter-spacing: 1px;
+			text-underline-position: center;
+			font: Comic Sans;
+			color: #6aa1c5;
+
+		}
+		.container{
+			border: 2px;
+			border-color: black;
+			box-shadow: 5px 5px 5px 5px #888888;
+			width: 1000px;
+			height: 600px;
+			border-radius: 20px;
+			top: 50%;
+			left: 50%;
+			position: absolute;
+			transform: translate(-50%,-50%);
+			box-sizing: border-box;
+			
+		}
+		.btn{
+			background-color: #a3a3a3;
+			height: 55px;
+			margin-left: 30%;
+			width: 40%;
+
+		}
+		.form{
+			padding: 40px;
+		}
+	</style>
+</head>
+<body class=b>
+	<div class="container">
+	<div>
+	<form class="form">
+		<div class="head"><p><h3>Come let's register.. </h3></p></div>
+		<br>
+		<p><b>FIRST NAME:</b><input type="text" id="fname">
+  		
+ 			<b>LAST NAME:</b><input type="text" id="lname"></p>
+ 		<b>GENDER :</b>
+ 		<input type="radio" name="gender" value="m" >MALE
+    	<input type="radio" name="gender" value="f">FEMALE
+    	<input type="radio" name="gender" value="t">TRANS GENDER
+ 		
+ 		<p><b>E-MAIL :</b>
+   		<input type="text" id="email" >
+		</p>
+
+		<p><b>MOBILE :</b>
+   		<input type="number" id="ph" >
+		</p>
+
+		<p><b>PASSWORD :</b>
+   		<input type="password" id="pass" >
+		</p>
+
+		<p><b>CONFIRM PASSWORD :</b>
+   		<input type="password" id="cpass" >
+		</p>
+
+		<br>
+		<p><button class="btn"><b>REGISTER</b></button></p>
+		<a href="login.html">already registered</a>
+		<br> <a href="item.html">home>></a></p>
+	</form></div>
+</div>
+</body>
+</html>
